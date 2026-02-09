@@ -1,29 +1,24 @@
-# simulador-multiples-orbitas
 # Simulador de Múltiples Órbitas
 
-Este proyecto es un programa en Python que permite simular y visualizar múltiples órbitas circulares de forma interactiva. El usuario puede definir el radio de cada órbita y la cantidad de órbitas a simular, obteniendo un gráfico comparativo con diferentes colores y etiquetas.
+Este proyecto es un programa en Python que permite simular y visualizar múltiples órbitas circulares de forma interactiva. El usuario puede definir el número de órbitas, el radio de cada una y la cantidad de ángulos utilizados para su cálculo, obteniendo una representación gráfica clara y comparativa.
 
 ## Descripción
-El programa calcula las coordenadas X e Y de cada órbita utilizando funciones trigonométricas. Además, clasifica cada órbita según su altura sobre el nivel del mar:
-- Órbita baja: ≤ 2000 km
-- Órbita media: 2001 km – 35786 km
-- Órbita alta: ≥ 35787 km
-- Fuera de órbita: ≥ 1,500,001 km  
-
-El gráfico resultante muestra todas las órbitas en el mismo plano, con colores distintos y leyenda para identificar cada una.
+El programa calcula las coordenadas X e Y de cada órbita usando funciones trigonométricas. Además, clasifica cada órbita según su altura sobre el nivel del mar, indicando si es una órbita baja, media, alta o si se encuentra fuera de órbita. Cada órbita se dibuja con un color diferente y se identifica mediante una leyenda.
 
 ## Cómo funciona
-1. El usuario ingresa la cantidad de órbitas que quiere simular.
+1. El usuario ingresa cuántas órbitas desea simular.
 2. Para cada órbita, ingresa el radio en kilómetros.
-3. El programa calcula las coordenadas de la órbita y determina su tipo.
-4. Se grafica cada órbita con un color diferente y se muestra la leyenda.
+3. El usuario define la cantidad de ángulos para el cálculo.
+4. El programa clasifica la órbita según el radio ingresado.
+5. Se genera un gráfico comparativo con todas las órbitas.
 
 ## Características
-- Simulación de múltiples órbitas en un mismo gráfico.
-- Clasificación automática de cada órbita según altura.
-- Visualización clara y proporcional de todas las órbitas.
-- Interactividad mediante entrada por consola.
-- Código simple y fácil de entender, ideal para principiantes.
+- Simulación de múltiples órbitas en un solo gráfico.
+- Clasificación automática de órbitas por altura.
+- Colores distintos y leyenda para cada órbita.
+- Visualización proporcional con escala real.
+- Interacción mediante entrada por consola.
+- Código claro y fácil de entender, ideal para principiantes.
 
 ## Tecnologías
 - Python 3
@@ -31,35 +26,31 @@ El gráfico resultante muestra todas las órbitas en el mismo plano, con colores
 - Matplotlib
 
 ## Objetivo del proyecto
-Este proyecto tiene fines educativos y está pensado para aprender Python, matemáticas básicas y visualización científica. Permite comprender cómo se representan gráficamente órbitas circulares y cómo se comparan diferentes radios de manera visual.
+Este proyecto tiene fines educativos y está pensado para aprender Python, matemáticas básicas y visualización científica. Permite comprender cómo se representan y comparan distintas órbitas circulares de manera gráfica e interactiva.
 
 
 
-# Multi-Orbit Simulator
+# Multiple Orbit Simulator
 
-This project is a Python program that allows users to simulate and visualize multiple circular orbits interactively. Users can define the radius of each orbit and the number of orbits to simulate, generating a comparative plot with different colors and labels.
+This project is a Python program that allows users to simulate and visualize multiple circular orbits interactively. The user can define the number of orbits, the radius of each one, and the number of angles used for the calculations, producing a clear and comparative graphical representation.
 
 ## Description
-The program calculates the X and Y coordinates of each orbit using trigonometric functions. It also classifies each orbit based on its altitude above sea level:
-- Low orbit: ≤ 2000 km
-- Medium orbit: 2001 km – 35786 km
-- High orbit: ≥ 35787 km
-- Out of orbit: ≥ 1,500,001 km
-
-The resulting plot shows all orbits on the same plane with different colors and a legend for easy identification.
+The program calculates the X and Y coordinates of each orbit using trigonometric functions. It also classifies each orbit according to its altitude above sea level, indicating whether it is a low, medium, high, or out-of-orbit trajectory. Each orbit is drawn with a different color and identified using a legend.
 
 ## How it works
-1. The user inputs the number of orbits to simulate.
+1. The user enters how many orbits they want to simulate.
 2. For each orbit, the user enters the radius in kilometers.
-3. The program calculates the coordinates and determines the orbit type.
-4. Each orbit is plotted with a different color and labeled in the legend.
+3. The user defines the number of angles used for the calculation.
+4. The program classifies the orbit based on the entered radius.
+5. A comparative plot with all orbits is generated.
 
 ## Features
 - Simulation of multiple orbits in a single plot.
-- Automatic classification of each orbit by altitude.
-- Clear and proportional visualization of all orbits.
-- Interactive via console input.
-- Simple and beginner-friendly code.
+- Automatic orbit classification by altitude.
+- Different colors and legend for each orbit.
+- Proportional visualization with correct scale.
+- Interactive console input.
+- Clean and beginner-friendly code.
 
 ## Technologies
 - Python 3
@@ -67,4 +58,4 @@ The resulting plot shows all orbits on the same plane with different colors and 
 - Matplotlib
 
 ## Project Goal
-This project is for educational purposes and designed to help beginners learn Python, basic mathematics, and scientific visualization. It allows understanding how circular orbits are graphically represented and how different radii can be compared visually.
+This project is for educational purposes and is intended to help users learn Python, basic mathematics, and scientific visualization. It provides a simple and visual way to understand how circular orbits are modeled and compared.
